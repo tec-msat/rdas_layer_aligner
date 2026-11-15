@@ -17,7 +17,7 @@ Usage:
 
 ```
 # If you are decding L4 or just want get your own calibration coefficients (calibration is already included for L2/L3/M1/M2):
-./rdas_layer_aligner -s <sat: L2|L3|L4|M1|M2> -d <live-output-directory> -m calibrate
+./rdas_layer_aligner -s <sat: L2|L3|L4|L5|M1|M2> -d <live-output-directory> -m calibrate
 # e.g. ./rdas_layer_aligner -s L2 -d 2025-01-02_12-34_elektro-rdas -m calibrate
 # Note that this doesn't create merge parameters as they have to be manually adjusted.
 
